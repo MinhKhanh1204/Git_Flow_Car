@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Basic Form</title>
 </head>
+
 <body>
   <h2>Contact Form</h2>
   <form action="#" method="post">
     <label for="name">Name:</label><br>
     <input type="text" id="name" name="name" required><br><br>
-
+    <p>
+      - Nếu có thay đổi trong master thì tự động deploy.
+      - Quản lý bằng Jenkins / CircleCI (phần này có thể tìm hiểu thêm)
+      - Bên web/server : sử dụng các tools deploy tự động như capistrano để tiết kiệm thời gian và giảm rủi ro.
+      - Về app thì sử dụng các tools như deploygate, testflight để deploy.
+      - Có nhiều dự án sử dụng chức năng tự động deploy của CircleCI rất hiệu quả. Cách làm này tiết kiệm thời gian và
+      cải thiện workflow trong team.
+    </p>
     <label for="email">Email:</label><br>
     <input type="email" id="email" name="email" required><br><br>
 
@@ -19,4 +28,5 @@
     <input type="submit" value="Submit">
   </form>
 </body>
+
 </html>
