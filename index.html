@@ -9,7 +9,13 @@
   <form action="#" method="post">
     <label for="name">Name:</label><br>
     <input type="text" id="name" name="name" required><br><br>
-
+    <p>- Khi tạo 1 branch mới và có commit mới thì bắt buộc phải tạo pull request và thêm prefix [DRAF].
+- Tất cả các pull request phải được review.
+  - Sau khi hoàn thiện xong chức năng và sẵn sàng review thì bỏ [DRAF]đi và assign lại cho leader.
+- Sử dụng các công cụ chatwork/lark/zalo,... để yêu cầu được review.
+- Sau khi review xong thì leader merge vào và xoá branch đó đi.
+  - Nếu có yêu cầu phải sửa thì comment vào và assign ngược lại cho member.
+  - Leader sau khi review xong cần phải comment lại để cho members được biết. Ví dụ như LGTM, :+1:,</p>
     <label for="email">Email:</label><br>
     <input type="email" id="email" name="email" required><br><br>
 
