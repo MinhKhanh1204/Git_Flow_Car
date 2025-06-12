@@ -1,42 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Basic Form</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Basic Form</title>
-</head>
+  <body>
+    <h2>Contact Form</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" required /><br /><br />
+      <<<<<<< HEAD
+      <p>
+        - Khi tạo 1 branch mới và có commit mới thì bắt buộc phải tạo pull
+        request và thêm prefix [DRAF]. - Tất cả các pull request phải được
+        review. - Sau khi hoàn thiện xong chức năng và sẵn sàng review thì bỏ
+        [DRAF]đi và assign lại cho leader. - Sử dụng các công cụ
+        chatwork/lark/zalo,... để yêu cầu được review. - Sau khi review xong thì
+        leader merge vào và xoá branch đó đi. - Nếu có yêu cầu phải sửa thì
+        comment vào và assign ngược lại cho member. - Leader sau khi review xong
+        cần phải comment lại để cho members được biết. Ví dụ như LGTM, :+1:,
+      </p>
+      =======
+      <p>
+        - Nếu có thay đổi trong master thì tự động deploy. - Quản lý bằng
+        Jenkins / CircleCI (phần này có thể tìm hiểu thêm) - Bên web/server : sử
+        dụng các tools deploy tự động như capistrano để tiết kiệm thời gian và
+        giảm rủi ro. - Về app thì sử dụng các tools như deploygate, testflight
+        để deploy. - Có nhiều dự án sử dụng chức năng tự động deploy của
+        CircleCI rất hiệu quả. Cách làm này tiết kiệm thời gian và cải thiện
+        workflow trong team.
+      </p>
+      >>>>>>> 652cbfa6ca359538da3faed936500006659b9269
+      <p>aaaaaaaaaaaaaaaaa 123 dss</p>
 
-<body>
-  <h2>Contact Form</h2>
-  <form action="#" method="post">
-    <label for="name">Name:</label><br>
-    <input type="text" id="name" name="name" required><br><br>
-<<<<<<< HEAD
-    <p>- Khi tạo 1 branch mới và có commit mới thì bắt buộc phải tạo pull request và thêm prefix [DRAF].
-- Tất cả các pull request phải được review.
-  - Sau khi hoàn thiện xong chức năng và sẵn sàng review thì bỏ [DRAF]đi và assign lại cho leader.
-- Sử dụng các công cụ chatwork/lark/zalo,... để yêu cầu được review.
-- Sau khi review xong thì leader merge vào và xoá branch đó đi.
-  - Nếu có yêu cầu phải sửa thì comment vào và assign ngược lại cho member.
-  - Leader sau khi review xong cần phải comment lại để cho members được biết. Ví dụ như LGTM, :+1:,</p>
-=======
-    <p>
-      - Nếu có thay đổi trong master thì tự động deploy.
-      - Quản lý bằng Jenkins / CircleCI (phần này có thể tìm hiểu thêm)
-      - Bên web/server : sử dụng các tools deploy tự động như capistrano để tiết kiệm thời gian và giảm rủi ro.
-      - Về app thì sử dụng các tools như deploygate, testflight để deploy.
-      - Có nhiều dự án sử dụng chức năng tự động deploy của CircleCI rất hiệu quả. Cách làm này tiết kiệm thời gian và
-      cải thiện workflow trong team.
-    </p>
->>>>>>> 652cbfa6ca359538da3faed936500006659b9269
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email" required><br><br>
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
 
-    <label for="message">Message:</label><br>
-    <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" rows="4" cols="40"></textarea
+      ><br /><br />
 
-    <input type="submit" value="Submit">
-  </form>
-</body>
-
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
 </html>
